@@ -1,7 +1,20 @@
-resolver: lts-12.0
+resolver: nightly-2018-11-27
 packages:
 - cachix-api
 - cachix
 nix:
     packages: [zlib,lzma]
     pure: false
+extra-deps:
+- servant-0.15
+- servant-client-core-0.15
+- servant-client-0.15
+- servant-conduit-0.15
+- servant-server-0.15
+- servant-swagger-1.1.7
+- swagger2-2.3.1
+- QuickCheck-2.12.6.1
+- http-api-data-0.4
+- hspec-2.6.0
+- hspec-core-2.6.0
+- hspec-discover-2.6.0
